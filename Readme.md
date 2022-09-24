@@ -7,3 +7,6 @@
 | 2 | <b>ContainerWithMostWater</b>  <br>             | [11](https://leetcode.com/problems/container-with-most-water/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ContainerWithMostWater.java)|
 | 3 | <b>SquaresOfSortedArray</b>  <br>             | [977](https://leetcode.com/problems/squares-of-a-sorted-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SquaresOfSortedArray.java)|
 | 4 | <b>ThreeSum</b>  <br>             | [15](https://leetcode.com/problems/3sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ThreeSum.java)|
+| 5 | <b>PivotIndex</b>  <br>             | [724](https://leetcode.com/problems/find-pivot-index/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/PivotIndex.java)|
+| 6 | <b>Isomorphic</b>  <br>             | [205](https://leetcode.com/problems/isomorphic-strings/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/Isomorphic.java)|
+| 7 | <b>IsSubsequence</b>  <br>             | [392](https://leetcode.com/problems/is-subsequence/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/IsSubsequence.java)|
