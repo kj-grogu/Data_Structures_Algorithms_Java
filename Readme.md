@@ -11,3 +11,4 @@
 | 6 | <b>Isomorphic</b>  <br>             | [205](https://leetcode.com/problems/isomorphic-strings/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/Isomorphic.java)|
 | 7 | <b>IsSubsequence</b>  <br>             | [392](https://leetcode.com/problems/is-subsequence/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/IsSubsequence.java)|
 | 8 | <b>SortedLinkedListMerge</b>  <br>             | [21](https://leetcode.com/problems/merge-two-sorted-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SortedLinkedListMerge.java)|
+| 9 | <b>ReverseLinkedList</b>  <br>             | [206](https://leetcode.com/problems/reverse-linked-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReverseLinkedList.java)|
