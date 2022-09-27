@@ -12,3 +12,5 @@
 | 7 | <b>IsSubsequence</b>  <br>             | [392](https://leetcode.com/problems/is-subsequence/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/IsSubsequence.java)|
 | 8 | <b>SortedLinkedListMerge</b>  <br>             | [21](https://leetcode.com/problems/merge-two-sorted-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SortedLinkedListMerge.java)|
 | 9 | <b>ReverseLinkedList</b>  <br>             | [206](https://leetcode.com/problems/reverse-linked-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReverseLinkedList.java)|
+| 10 | <b>BestTimeBuySellStock</b>  <br>             | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/BestTimeBuySellStockt.java)|
+| 12 | <b>HappyNumber</b>  <br>             | [202](https://leetcode.com/problems/happy-number/submissions/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/HappyNumber.java)|
