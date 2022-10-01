@@ -59,7 +59,7 @@ public class ReverseLinkedList {
              return head;
          ListNode trav = head;
          ListNode retNode = recTravBackwards(trav);
-         return newHead;
+        return newHead;
      }
     public static ListNode recTravBackwards(ListNode curr){
         if(curr.next == null) {

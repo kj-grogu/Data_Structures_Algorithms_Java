@@ -46,7 +46,8 @@ public class MoveZeros {
                     nums[zStrart] = nums[i];
                     nums[i] = 0;
                     zStrart++;
-                }     
+                }   }  
+            
             } 
         }
 public static void main(String[] args) {
