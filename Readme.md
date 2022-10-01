@@ -17,3 +17,4 @@
 | 12 | <b>ValidParentheses</b>  <br>             | [20](https://leetcode.com/problems/valid-parentheses/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ValidParentheses.java)|
 | 13 | <b>MoveZeros</b>  <br>             | [283](https://leetcode.com/problems/move-zeroes/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MoveZeros.java)|
 | 14 | <b>ValidAnagram</b>  <br>             | [242](https://leetcode.com/problems/valid-anagram/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ValidAnagram.java)|
+| 15 | <b>ShortestJobFirst</b>  <br>             | [OS1] | [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ShortestJobFirst.java)|
