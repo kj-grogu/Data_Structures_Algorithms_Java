@@ -18,3 +18,6 @@
 | 13 | <b>MoveZeros</b>  <br>             | [283](https://leetcode.com/problems/move-zeroes/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MoveZeros.java)|
 | 14 | <b>ValidAnagram</b>  <br>             | [242](https://leetcode.com/problems/valid-anagram/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ValidAnagram.java)|
 | 15 | <b>ShortestJobFirst</b>  <br>             | [OS1] | [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ShortestJobFirst.java)|
+| 16 | <b>ReverseString</b>  <br>             | [344](https://leetcode.com/problems/reverse-string/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReverseString.java)|
+| 17 | <b>ParkingSystem</b>  <br>             | [1603](https://leetcode.com/problems/design-parking-system/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ParkingSystem.java)|
+| 18 | <b>ReveseStringWords</b>  <br>             | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReveseStringWords.java)|
