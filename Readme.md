@@ -21,3 +21,4 @@
 | 16 | <b>ReverseString</b>  <br>             | [344](https://leetcode.com/problems/reverse-string/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReverseString.java)|
 | 17 | <b>ParkingSystem</b>  <br>             | [1603](https://leetcode.com/problems/design-parking-system/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ParkingSystem.java)|
 | 18 | <b>ReveseStringWords</b>  <br>             | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReveseStringWords.java)|
+| 19 | <b>NextGreaterElement</b>  <br>             | [496](https://leetcode.com/problems/next-greater-element-i/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/NextGreaterElement.java)|
