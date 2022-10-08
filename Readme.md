@@ -24,3 +24,5 @@
 | 19 | <b>NextGreaterElement</b>  <br>             | [496](https://leetcode.com/problems/next-greater-element-i/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/NextGreaterElement.java)|
 | 20 | <b>MajorityElement</b>  <br>             | [169](https://leetcode.com/problems/majority-element/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MajorityElement.java)|
 | 21 | <b>RemoveDuplicateSortedArray</b>  <br>             | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RemoveDuplicateSortedArray.java)|
+| 22 | <b>PathSum</b>  <br>             | [112](https://leetcode.com/problems/path-sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/PathSum.java)|
+| 23 | <b>LongestCommonPrefix</b>  <br>             | [14](https://leetcode.com/problems/longest-common-prefix/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/LongestCommonPrefix.java)|
