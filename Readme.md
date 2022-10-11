@@ -27,3 +27,5 @@
 | 22 | <b>PathSum</b>  <br>             | [112](https://leetcode.com/problems/path-sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/PathSum.java)|
 | 23 | <b>LongestCommonPrefix</b>  <br>             | [14](https://leetcode.com/problems/longest-common-prefix/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/LongestCommonPrefix.java)|
 | 24 | <b>InvertBinaryTree</b>  <br>             | [226](https://leetcode.com/problems/invert-binary-tree/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/InvertBinaryTree.java)|
+| 25 | <b>SquareRoot</b>  <br>             | [69](https://leetcode.com/problems/sqrtx/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SquareRoot.java)|
+| 26 | <b>SubTree</b>  <br>             | [572](https://leetcode.com/problems/subtree-of-another-tree/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SubTree.java)|
