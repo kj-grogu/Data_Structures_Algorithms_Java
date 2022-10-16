@@ -30,4 +30,4 @@
 | 25 | <b>SquareRoot</b>  <br>             | [69](https://leetcode.com/problems/sqrtx/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SquareRoot.java)|
 | 26 | <b>SubTree</b>  <br>             | [572](https://leetcode.com/problems/subtree-of-another-tree/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SubTree.java)|
 | 27 | <b>RemoveDupsLinkedList</b>  <br>             | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RemoveDupsLinkedList.java)|
-| 28 | <b>ListIntersection</b>  <br>             | [160](//https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ListIntersection.java)|
+| 28 | <b>ListIntersection</b>  <br>             | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ListIntersection.java)|
