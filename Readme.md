@@ -32,3 +32,4 @@
 | 27 | <b>RemoveDupsLinkedList</b>  <br>             | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RemoveDupsLinkedList.java)|
 | 28 | <b>ListIntersection</b>  <br>             | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ListIntersection.java)|
 | 29 | <b>StackUsingQueue</b>  <br>             | [225](https://leetcode.com/problems/implement-stack-using-queues/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/StackUsingQueue.java)|
+| 30 | <b>RankTransformArray</b>  <br>             | [1331](https://leetcode.com/problems/rank-transform-of-an-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RankTransformArray.java)|
