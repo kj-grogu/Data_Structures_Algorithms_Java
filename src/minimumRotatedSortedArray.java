@@ -25,11 +25,11 @@ public class minimumRotatedSortedArray {
         public static int findMinSubRt(int low, int high, int[] nums){
             int mid = low + (high - low)/2;
             int res = nums[mid];
-            if(low < high){
-                if(low == high - 1)
+			if(low == high - 1)
                 {
                     return Math.min(nums[low], nums[high]);
                 }
+            if(low < high){
                 if(mid - 1 >= 0 && mid + 1 < nums.length) {
                       int resL = findMinSubRt(low,mid - 1, nums);
                       int resR = findMinSubRt(mid + 1,high, nums);
