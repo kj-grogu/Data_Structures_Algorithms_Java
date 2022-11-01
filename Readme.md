@@ -36,3 +36,4 @@
 | 31 | <b>MinimumAbsoluteDifference</b>  <br>             | [1200](https://leetcode.com/problems/minimum-absolute-difference/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MinimumAbsoluteDifference.java)|
 | 32 | <b>ProductArrayExceptSelf</b>  <br>             | [238](https://leetcode.com/problems/product-of-array-except-self/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ProductArrayExceptSelf.java)|
 | 33 | <b>ContainsDuplicate</b>  <br>             | [217](https://leetcode.com/problems/contains-duplicate/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ContainsDuplicate.java)|
+| 34 | <b>minimumRotatedSortedArray</b>  <br>             | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/minimumRotatedSortedArray.java)|
