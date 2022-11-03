@@ -39,3 +39,4 @@
 | 34 | <b>minimumRotatedSortedArray</b>  <br>             | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/minimumRotatedSortedArray.java)|
 | 35 | <b>TwoSumIntegers</b>  <br>             | [371](https://leetcode.com/problems/sum-of-two-integers/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/TwoSumIntegers.java)|
 | 36 | <b>FibonacciNumber</b>  <br>             | [509](https://leetcode.com/problems/fibonacci-number/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/FibonacciNumber.java)|
+| 37 | <b>UniquePaths</b>  <br>             | [62](https://leetcode.com/problems/unique-paths/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/UniquePaths.java)|
