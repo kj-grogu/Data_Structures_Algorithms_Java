@@ -28,7 +28,7 @@ import java.util.*;
 // 2 <= candidates[i] <= 40
 // All elements of candidates are distinct.
 
-public class HowSum {
+public class CombinationSum {
 	public static List<List<Integer>> combinations = new ArrayList<>();
 			
 			  public static List<List<Integer>> combinationSum(int[] candidates, int target) {
