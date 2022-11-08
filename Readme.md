@@ -40,3 +40,5 @@
 | 35 | <b>TwoSumIntegers</b>  <br>             | [371](https://leetcode.com/problems/sum-of-two-integers/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/TwoSumIntegers.java)|
 | 36 | <b>FibonacciNumber</b>  <br>             | [509](https://leetcode.com/problems/fibonacci-number/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/FibonacciNumber.java)|
 | 37 | <b>UniquePaths</b>  <br>             | [62](https://leetcode.com/problems/unique-paths/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/UniquePaths.java)|
+| 38 | <b>SearchRotatedSortedArray</b>  <br>             | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SearchRotatedSortedArray.java)|
+| 39 | <b>CombinationSum</b>  <br>             | [39](https://leetcode.com/problems/combination-sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/CombinationSum.java)|
