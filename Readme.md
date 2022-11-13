@@ -44,3 +44,4 @@
 | 39 | <b>CombinationSum</b>  <br>             | [39](https://leetcode.com/problems/combination-sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/CombinationSum.java)|
 | 40 | <b>KnapSack</b>  <br>             | [DP-10](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/KnapSack.java)|
 | 41 | <b>SubSetSum</b>  <br>             | [DP-25](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SubSetSum.java)|
+| 42 | <b>EqualSumPartition</b>  <br>             | [416](https://leetcode.com/problems/partition-equal-subset-sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/EqualSumPartition.java)|
