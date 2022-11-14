@@ -46,6 +46,7 @@ public class SubSetSum {
 				memo[n-1][target] = (subSetSumRecurrMemo(nums, remainder,n-1,memo) || subSetSumRecurrMemo(nums, target, n-1, memo));
 				//return (subSetSumRecurr(nums, remainder,n-1) || subSetSumRecurr(nums, target, n-1));
 			}
+			else
 			memo[n][target] = subSetSumRecurrMemo(nums, target, n-1, memo);
 		//return subSetSumRecurr(nums, target, n-1);
 		return memo[n][target];
