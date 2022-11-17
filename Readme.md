@@ -50,4 +50,4 @@
 | 45 | <b>CountSubSetGivenDifference</b>  <br>             | [DP](https://www.geeksforgeeks.org/count-of-subsets-with-given-difference/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/CountSubSetGivenDifference.java)|
 | 46 | <b>TargetSumSignChange</b>  <br>             | [494](https://leetcode.com/problems/target-sum/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/TargetSumSignChange.java)|
 | 47 | <b>NumberOfIslands</b>  <br>             | [200](https://leetcode.com/problems/number-of-islands/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/NumberOfIslands.java)|
-| 48 | <b>PalindromeNumber</b>  <br>             | [200](https://leetcode.com/problems/palindrome-number/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/NumberOfIslands.java)|
+| 48 | <b>PalindromeNumber</b>  <br>             | [9](https://leetcode.com/problems/palindrome-number/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/NumberOfIslands.java)|
