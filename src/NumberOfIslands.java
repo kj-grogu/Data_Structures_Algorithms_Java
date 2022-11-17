@@ -44,7 +44,8 @@ public class NumberOfIslands {
 			if(grid[i][j] == '1' && !visited[i][j]){
 			  countIslands++;
 			  //System.out.println("Entering BFS "+ countIslands);
-			  bFS(grid,i,j,directions,visited);
+			  //bFS(grid,i,j,directions,visited);
+			  dFS(grid,i,j,directions,visited);
 			}
 		  }
 		} 
@@ -72,6 +73,24 @@ public class NumberOfIslands {
 		}
 	  }
 	}
+
+	public static void dFS(char [][] grid, int rowStart, int colStart, int [][] directions ,boolean [][] visited){
+    
+		if(visited[rowStart][colStart])
+		  return;
+		  
+		visited[rowStart][colStart] = true;
+		
+		  for(int i=0; i<4; i++){
+			int newRow = rowStart + directions[i][0];
+			int newCol = colStart + directions[i][1];
+			if(!valid(grid, newRow, newCol))
+			  continue;
+			if(grid[newRow][newCol] == '1'){
+				dFS(grid,newRow,newCol,directions,visited);
+			}
+		}
+	  }
 	
 	public static boolean valid(char [][] grid, int newRow, int newCol){
 	  int rowLen = grid.length;
