@@ -53,3 +53,4 @@
 | 48 | <b>PalindromeNumber</b>  <br>             | [9](https://leetcode.com/problems/palindrome-number/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/PalindromeNumber.java)|
 | 49 | <b>NetworkDelayTime</b>  <br>             | [743](https://leetcode.com/problems/network-delay-time/ )| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/NetworkDelayTime.java)|
 | 50 | <b>RodCuttingDP</b>  <br>             | [DP](https://www.youtube.com/watch?v=SZqAQLjDsag&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=17 )| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RodCuttingDP.java)|
+| 51 | <b>CoinChangeMaxWays</b>  <br>             | [DP](https://www.youtube.com/watch?v=I4UR2T6Ro3w&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=15 )| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/CoinChangeMaxWays.java)|
