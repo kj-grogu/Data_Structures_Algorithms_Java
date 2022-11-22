@@ -62,7 +62,16 @@ public static int longestCommonSubSequence(String text1 , String text2){
 	//return lngstCmnSubSqnceRecurr(setSeqArr, setSubSeqArr, n, m);
 
 	//Calling recurrsive memoized solution for longest common subsequence:
-	return lngstCmnSubSqnceRecurrMemo(setSeqArr, setSubSeqArr, n, m, memo);
+	//return lngstCmnSubSqnceRecurrMemo(setSeqArr, setSubSeqArr, n, m, memo);
+
+	//Calling  the longestCommonSubStringRetStr function:
+	System.out.println("longestCommonSubStringRetStr returns the longest common sub string as: "+
+	longestCommonSubStringRetStr(setSeqArr,setSubSeqArr, setSeqArr.length, setSubSeqArr.length));
+	
+	//Calling tabular bottom up Solution
+	return lngstCmnSubSqnceTabular(setSeqArr, setSubSeqArr, n, m);
+
+	
 }
 
 //Recurrsive solution
@@ -98,6 +107,72 @@ public static int lngstCmnSubSqnceRecurrMemo(char [] setSeqArr, char [] setSubSe
 		lngstCmnSubSqnceRecurrMemo(setSeqArr, setSubSeqArr, n-1, m, memo));
 	}
 	return memo[n][m];
+}
+//Tabular (BottomUp DP Solution for Longest common subsequence)
+public static int lngstCmnSubSqnceTabular(char [] setSeqArr, char [] setSubSeqArr, int n, int m){
+	int [][] bottomUpResult = new int [n+1][m+1];
+	
+	//Initialization (Bottom up):
+	for(int i=0; i<n+1; i++){
+		for(int j=0; j<m+1; j++){
+			if(i == 0 || j == 0){
+				bottomUpResult[i][j] = 0;
+			}
+		}
+	}
+
+	//Bottom up tabular solution:
+	for(int i=1; i<n+1; i++){
+		for(int j=1; j<m+1; j++){
+			if(setSeqArr[i-1] == setSubSeqArr[j-1]){
+				bottomUpResult[i][j] = 1 + bottomUpResult[i-1][j-1];
+			}else{
+				bottomUpResult[i][j] = Math.max(bottomUpResult[i][j-1], bottomUpResult[i-1][j]);
+			}
+		}
+	}
+	return bottomUpResult[n][m];
+}
+
+public static String longestCommonSubStringRetStr(char [] str1Arr, char [] str2Arr, int n, int m){
+	int [][] tabularResult = new int[n+1][m+1];
+	String result = ""; 
+
+	//initialization:
+	for (int i=0; i<n+1; i++){
+		for(int j=0; j<m+1; j++){
+			if(i==0 || j==0){
+				tabularResult[i][j] = 0;
+			}
+		}
+	}
+	//Bottom Up tabular - iterative solution
+	for(int i=1; i<n+1; i++){
+		for(int j=1	; j<m+1; j++){
+			if(str1Arr[i-1] == str2Arr[j-1]){
+				tabularResult[i][j] = 1 + tabularResult[i-1][j-1];
+			}else{
+				tabularResult[i][j] = Math.max(tabularResult[i][j-1], tabularResult[i-1][j]);
+			}
+			
+		}
+	}
+	//getting the string result from the table:
+	int i = n, j = m;
+	while(i>0 && j>0){
+		if(str1Arr[i-1] == str2Arr[j-1]){
+			result = str1Arr[i-1] + result;
+			i--;
+			j--;
+		}else{
+				if(tabularResult[i][j-1] > tabularResult[i-1][j])
+					j--;
+				else
+					i--;
+
+		}
+	}
+	return result;
 }
 public static void main(String [] args){
 	String text1 = "abcde";
