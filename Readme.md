@@ -57,3 +57,4 @@
 | 52 | <b>CoinChangeMinCoins</b>  <br>             | [DP](https://www.youtube.com/watch?v=I-l6PBeERuc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=16 )| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/CoinChangeMinCoins.java)|
 | 53 | <b>LngstCmnSubSqnce</b>  <br>             | [1143](https://leetcode.com/problems/longest-common-subsequence/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/LngstCmnSubSqnce.java)|
 | 54 | <b>LongestCommonSubString</b>  <br>             | [DP-29](https://www.geeksforgeeks.org/longest-common-substring-dp-29/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/LongestCommonSubString.java)|
+| 54 | <b>ShortestCommonSuperSqnc</b>  <br>             | [DP](https://www.geeksforgeeks.org/shortest-common-supersequence/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ShortestCommonSuperSqnc.java)|

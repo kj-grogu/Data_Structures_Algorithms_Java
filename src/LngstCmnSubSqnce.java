@@ -133,7 +133,7 @@ public static int lngstCmnSubSqnceTabular(char [] setSeqArr, char [] setSubSeqAr
 	}
 	return bottomUpResult[n][m];
 }
-
+//printing the longest common sub sequence
 public static String longestCommonSubStringRetStr(char [] str1Arr, char [] str2Arr, int n, int m){
 	int [][] tabularResult = new int[n+1][m+1];
 	String result = ""; 
