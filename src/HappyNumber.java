@@ -65,6 +65,25 @@ class HappyNumber {
         
         return recsqrSum(sum);
     }
+
+    //Happy Number:
+    /*
+    public boolean isHappy(int n) {
+        Set<Integer> nSet = new HashSet<>();
+        while (n != 1){
+            nSet.add(n);
+            int tempN = 0;
+            while(n > 0){
+                tempN = tempN + (n % 10) * (n % 10);
+                n = n / 10;
+            }
+            if(nSet.contains(tempN))
+                return false;
+            n = tempN;
+        }
+        return true;
+    }
+    */
     public static void main(String[] args) {
         int n = 10;
         System.out.println("isHappy(10) ==> "+isHappy(n));
