@@ -13,6 +13,7 @@ public class minimumRotatedSortedArray {
 
 // You must write an algorithm that runs in O(log n) time.
 
+/* 
 	public static int findMin(int[] nums) {
         if(nums == null)
             return 0;
@@ -42,6 +43,68 @@ public class minimumRotatedSortedArray {
                 }           
             return res;  
         }
+*/
+//Another way:
+public static int findMin(int[] nums) {
+    if(nums == null)
+        return 0;
+    if(nums.length == 1)
+        return nums[0];
+    int left = 0;
+    int right = nums.length - 1;
+
+    return minRes(nums, left, right);
+}
+public static int minRes(int [] nums, int left, int right){
+    int mid = left + (right - left)/2;
+    int resM = nums[mid];
+    int resL = Integer.MAX_VALUE;
+    int resR = Integer.MAX_VALUE;
+    if(left == right - 1)
+        return Math.min(nums[left], nums[right]);
+    else if(left < right)
+    {
+        resL = minRes(nums, left, mid - 1);
+        resR = minRes(nums, mid + 1, right);
+    }
+    return Math.min(resM, Math.min(resL, resR));
+}
+
+//Another way:
+//logic: 
+//1. No of times an array is rotated == index of the minimum element
+//2. If element at the mid is minimum then it will have the property that: 
+//  2.1. It will be smaller than both its left and right neighbours.
+//3. For moving aheah, move to unsorted part of array {either on left or right of mid (including mid)}
+
+//How to take care of array index out of bound error:
+//int nextM = (mid + 1) % nums.length; //understand better
+//int prevM = (mid + N - 1) % nums.length; // understand better
+
+/*
+public static int findMin(int[] nums) {
+      int start = 0;
+      int end = nums.length - 1;
+      while(start <= end){
+            int mid = start + (end - start)/2;
+            int nextM = (mid + 1) % nums.length;
+            int prevM = (mid + nums.length - 1) % nums.length;
+
+            System.out.println("start: "+ start + " mid: "+ mid + " end: " + end);
+            System.out.println("nextM: "+ nextM + " prevM: "+ prevM);
+
+            if(nums[mid] < nums[nextM] && nums[mid] < nums[prevM])
+                return nums[mid];
+            else if(nums[start] <= nums[mid] && nums[mid] <= nums[end])
+                return nums[start];
+            else if(nums[mid] >= nums[start]) //meaning array to the left of mid is sorted
+                start = mid + 1;
+            else if(nums[mid] <= nums[end]) //meaning array to the right of mid is sorted
+                end = mid - 1;          
+      }
+    return -1;
+}
+ */
 	public static void main(String [] args){
 		int [] nums = {4,5,6,1,2,3};
 		System.out.println("minimum value is: "+ findMin(nums));

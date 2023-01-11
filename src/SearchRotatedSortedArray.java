@@ -101,7 +101,61 @@ public class SearchRotatedSortedArray {
 			  return findTarget(mid+1, right, nums, target);
 		  }
 		   return targetInd;
-		 }      
+		 }
+	//Another Way:
+	//Logic:
+	//1. Use binary search to find the rotated or minimum val index
+	//2. Again use binary search to find the target index from either of the sub arrays to the left and right of rotated index.
+	//Code:
+	/*
+	public static int search(int[] nums, int target){
+        int minInd = findMinInd(nums);
+        //System.out.println("minInd: " + minInd);
+        int left = 0; 
+        int right = nums.length - 1;
+        if(target == nums[minInd])
+        return minInd;
+        else if(minInd > left && target >= nums[left])
+           return findTarget(nums, target, left, minInd - 1);
+        else 
+           return findTarget(nums, target, minInd + 1, right);
+  }
+  public static int findMinInd(int [] nums){
+        int start = 0;
+        int end = nums.length - 1;
+        
+        while(start <= end){
+            int mid = start + (end - start) / 2;
+            int nextM = (mid + 1) % nums.length;
+            int prevM = (mid + nums.length - 1) % nums.length;
+
+            if(nums[mid] < nums[nextM] && nums[mid] < nums[prevM])
+                return mid;
+            else if(nums[start] <= nums[mid] && nums[mid] <= nums[end])
+                return start;
+            else if(nums[mid] <= nums[end])
+                end = mid - 1;
+            else if(nums[mid] >= nums[start])
+                start = mid + 1;
+        }
+        return -1;
+  }
+  public static int findTarget(int [] nums, int target, int left, int right){
+      int mid = left + (right - left) / 2;
+      //System.out.println("left: " + left + " right: "+ right + " mid: "+ mid);
+      while(left <= right)
+      {
+            if(target == nums[mid])
+                return mid;
+            else if(target < nums[mid])
+                right = mid - 1;
+            else
+                left = mid + 1;
+        mid = left + (right - left) / 2;
+      }
+      return -1;
+  }
+	*/   
 	public static void main(String [] args){
 		int [] nums = {4,5,5,6,7,7,7,0,0,1,2};
 		System.out.println("index of target is: "+ search(nums, 0));

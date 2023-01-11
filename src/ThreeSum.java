@@ -38,6 +38,7 @@ public class ThreeSum {
         
         //3 <= nums.length <= 3000
         //-105 <= nums[i] <= 105
+
                // Solution in n^2 log n
         //         List<List<Integer>> result = new ArrayList<>();
         //         Arrays.sort(nums);
@@ -79,12 +80,12 @@ public class ThreeSum {
         //             }
         //         }
                 
-        //Solution in n^2
-                List<List<Integer>> result = new ArrayList<>();
+        //Solution in n^2 --> to be done again
+                List<List<Integer>> results = new ArrayList<>();
                 Arrays.sort(nums);
                 int left;
                 int right;
-                System.out.println(Arrays.toString(nums));
+                //System.out.println(Arrays.toString(nums));
                 
                 for(int i = 0; i<nums.length; i++){
                     
@@ -101,14 +102,8 @@ public class ThreeSum {
                             right--;
                         else
                         {
-                            List<Integer> subres = new ArrayList<>();
-                                             subres.add(nums[i]);
-                                             subres.add(nums[left]);
-                                             subres.add(nums[right]);
-                            result.add(subres);
-                            // ÷String temp = subres.toString();
-                            // resultmap.put(temp,subres);
-                            // //break;
+                            List<Integer> vals = Arrays.asList(nums[i], nums[left], nums[right]);
+                            results.add(vals);
                             left++;
                             right--;
                             
@@ -120,10 +115,7 @@ public class ThreeSum {
                         }     
                     }
                 }
-            // ArrayList<List<Integer>> result = new ArrayList<List<Integer>>(resultmap.values());
-            //List<List<Integer>> result = new ArrayList<>();  
-            //result.addList(resultmap.values);
-            return result;
+            return results;
             }
 public static void main(String[] args) {
     int nums [] = {0,0,0};

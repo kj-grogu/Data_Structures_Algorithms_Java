@@ -58,7 +58,7 @@ public class ReverseLinkedList {
          if(head == null)
              return head;
          ListNode trav = head;
-         ListNode retNode = recTravBackwards(trav);
+         //ListNode retNode = recTravBackwards(trav);
         return newHead;
      }
     public static ListNode recTravBackwards(ListNode curr){
@@ -83,6 +83,47 @@ public class ReverseLinkedList {
             result = result.next;
         }
     }
+/***************************************************BEST SOLUTIONS***************************************************************
+
+// The idea here is to keep 3 pointers:
+//prev ==> to mark the previous node initially null;
+//curr ==> to mark the current node which will start pointing to the prev node
+//after ==> to preserve the reference to the next node of the current node before it starts pointing to the previous node
+//Then keep moving this set one node further every iteration till whole list is traversed 
+//Then return the prev node that marks the head of reversed list
+
+/*
+    public ListNode reverseList(ListNode head) {
+    if(head == null)
+        return head;
+    ListNode curr = new ListNode();
+    ListNode prev = new ListNode();
+    curr = head;
+    prev = null;
+    while(curr != null){
+        ListNode after = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = after;
+    }
+    return prev;
+    }
+*/
+//Recurrsively:
+
+/*  
+    public ListNode reverseList(ListNode head) {
+    ListNode prev = null;
+    return revListRec(head, prev);
+    }
+    public ListNode revListRec(ListNode head, ListNode prev) {
+    if(head == null)
+    return prev;
+    ListNode after = head.next;
+    head.next = prev;
+    return revListRec(after, head);
+    }
+*/
 
 }
 

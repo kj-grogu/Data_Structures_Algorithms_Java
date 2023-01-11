@@ -41,6 +41,37 @@ public class ContainerWithMostWater {
                 }
                 return max;
             }
+//Another way:
+//Logic:
+//1. create two variable left and right, here len = right - left and ht = minimum of the heights as index left and right
+//2. water volume = len * ht
+//3. if both heights at both left and right index are equal then increment both left and right
+//4. if left height is smaller than right height then increment left height.
+//5. if rigth height is smaller than left height then increment right height.
+/*
+ public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int max = 0;
+
+        while(left < right)
+        {
+            int len = right - left;
+            int ht = Math.min(height[left], height[right]);
+            max = Math.max(max, len * ht);
+            if(height[left] == height[right]){
+                left++;
+                right--;
+            }
+            else if(height[left] < height[right])
+                left++;
+            else
+                right--;
+            
+        }
+    return max;
+    }
+ */
             public static void main(String[] args) {
                 int height [] = {2,7,11,15};
                 maxArea(height);
