@@ -71,3 +71,4 @@
 | 66 | <b>DecodeWays</b>  <br>             | [91](https://leetcode.com/problems/decode-ways/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/DecodeWays.java)|
 | 67 | <b>MaximumProductSubarray</b>  <br>             | [152](https://leetcode.com/problems/maximum-product-subarray/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MaximumProductSubarray.java)|
 | 68 | <b>LinkedListCycle</b>  <br>             | [141](https://leetcode.com/problems/linked-list-cycle/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/LinkedListCycle.java)|
+| 69 | <b>RmvDupsFrmUnsortedLinkedList</b>  <br>             | [1836](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RmvDupsFrmUnsortedLinkedList.java)|
