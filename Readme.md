@@ -73,4 +73,5 @@
 | 68 | <b>LinkedListCycle</b>  <br>             | [141](https://leetcode.com/problems/linked-list-cycle/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/LinkedListCycle.java)|
 | 69 | <b>RmvDupsFrmUnsortedLinkedList</b>  <br>             | [1836](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RmvDupsFrmUnsortedLinkedList.java)|
 | 70* | <b>RemoveNthNodeFrmEndList</b>  <br>             | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RemoveNthNodeFrmEndList.java)|
-| 71* | <b>ReorderList</b>  <br>             | [143](//https://leetcode.com/problems/reorder-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReorderList.java)|
+| 71* | <b>ReorderList</b>  <br>             | [143](https://leetcode.com/problems/reorder-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReorderList.java)|
+| 72* | <b>MergekSortedLists</b>  <br>             | [23](https://leetcode.com/problems/merge-k-sorted-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MergekSortedLists.java)|
