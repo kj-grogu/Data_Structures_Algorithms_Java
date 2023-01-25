@@ -76,3 +76,4 @@
 | 71* | <b>ReorderList</b>  <br>             | [143](https://leetcode.com/problems/reorder-list/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReorderList.java)|
 | 72* | <b>MergekSortedLists</b>  <br>             | [23](https://leetcode.com/problems/merge-k-sorted-lists/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MergekSortedLists.java)|
 | 73 | <b>SetMatrixZeroes</b>  <br>             | [73](https://leetcode.com/problems/set-matrix-zeroes/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SetMatrixZeroes.java)|
+| 74* | <b>SpiralMatrix</b>  <br>             | [54](https://leetcode.com/problems/spiral-matrix/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SpiralMatrix.java)|
