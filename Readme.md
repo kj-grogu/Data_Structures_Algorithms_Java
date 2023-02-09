@@ -78,3 +78,4 @@
 | 73 | <b>SetMatrixZeroes</b>  <br>             | [73](https://leetcode.com/problems/set-matrix-zeroes/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SetMatrixZeroes.java)|
 | 74* | <b>SpiralMatrix</b>  <br>             | [54](https://leetcode.com/problems/spiral-matrix/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SpiralMatrix.java)|
 | 75 | <b>RotateImage</b>  <br>             | [48](https://leetcode.com/problems/rotate-image/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RotateImage.java)|
+| 76* | <b>ReformatDate</b>  <br>             | [1507](https://leetcode.com/problems/reformat-date/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReformatDate.java)|
