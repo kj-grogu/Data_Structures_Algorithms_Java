@@ -80,3 +80,4 @@
 | 75 | <b>RotateImage</b>  <br>             | [48](https://leetcode.com/problems/rotate-image/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/RotateImage.java)|
 | 76* | <b>ReformatDate</b>  <br>             | [1507](https://leetcode.com/problems/reformat-date/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/ReformatDate.java)|
 | 77 | <b>MaxPieceOfCakeAftrHorAndVerCuts</b>  <br>             | [1465](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MaxPieceOfCakeAftrHorAndVerCuts.java)|
+| 78 | <b>TheKthFactorOfN</b>  <br>             | [1465](https://leetcode.com/problems/the-kth-factor-of-n/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/TheKthFactorOfN.java)|

@@ -25,6 +25,7 @@ public class ReformatDate {
 			}}; 
 			//The trick here is the this regex: understand this. 
 			String [] day = date.split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");
+			System.out.println("day : " + Arrays.toString(day));
 			String retdate = dateArr[2] + "-" + String.format("%02d", months.get(dateArr[1])) + "-" + String.format ("%02d",  Integer.parseInt( day[0]));
 	
 			return retdate;
