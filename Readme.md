@@ -82,3 +82,4 @@
 | 77 | <b>MaxPieceOfCakeAftrHorAndVerCuts</b>  <br>             | [1465](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/MaxPieceOfCakeAftrHorAndVerCuts.java)|
 | 78 | <b>TheKthFactorOfN</b>  <br>             | [1465](https://leetcode.com/problems/the-kth-factor-of-n/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/TheKthFactorOfN.java)|
 | 79* | <b>StringCompression</b>  <br>             | [443](https://leetcode.com/problems/string-compression/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/StringCompression.java)|
+| 80 | <b>DegreeOfArray</b>  <br>             | [697](https://leetcode.com/problems/degree-of-an-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/DegreeOfArray.java)|
