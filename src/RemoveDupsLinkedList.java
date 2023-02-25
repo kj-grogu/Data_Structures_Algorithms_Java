@@ -30,20 +30,16 @@ public class RemoveDupsLinkedList {
     public static ListNode deleteDuplicates(ListNode head) {
         if(head == null)
             return head;
-        ListNode newNode = head;
         ListNode curr = head;
-       while(head != null){
-           if(head.next != null && head.val == head.next.val)
-           {
-               head = head.next;
-           }else{
-               curr.next = head.next; // here the next of previous distinct element from before is modified
-               head = head.next; 
-               curr = curr.next; // here the current is modified to point to new distinct element
-           }
-            
-       } 
-        return newNode;
+        while(curr != null){
+            if(curr.next != null && curr.next.val == curr.val){
+                curr.next = curr.next.next;
+            }
+            else{
+                curr = curr.next;
+            }
+        }
+        return head;
     }
 public static void main(String [] args){
 	ListNode node5 = new ListNode(3);
