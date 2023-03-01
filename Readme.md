@@ -85,3 +85,4 @@
 | 80 | <b>DegreeOfArray</b>  <br>             | [697](https://leetcode.com/problems/degree-of-an-array/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/DegreeOfArray.java)|
 | 81 | <b>SingleNumber</b>  <br>             | [136](https://leetcode.com/problems/single-number/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/SingleNumber.java)|
 | 82 | <b>Numberof1Bits</b>  <br>             | [191](https://leetcode.com/problems/number-of-1-bits/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/Numberof1Bits.java)|
+| 83 | <b>CountingBits</b>  <br>             | [338](https://leetcode.com/problems/counting-bits/)| [Solution](https://github.com/kj-grogu/Data_Structures_Algorithms_Java/blob/main/src/CountingBits.java)|
