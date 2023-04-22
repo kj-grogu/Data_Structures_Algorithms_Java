@@ -1,0 +1,50 @@
+// https://leetcode.com/problems/powx-n/
+// 50. Pow(x, n)
+// Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+
+// Example 1:
+// Input: x = 2.00000, n = 10
+// Output: 1024.00000
+
+// Example 2:
+// Input: x = 2.10000, n = 3
+// Output: 9.26100
+
+// Example 3:
+// Input: x = 2.00000, n = -2
+// Output: 0.25000
+// Explanation: 2-2 = 1/22 = 1/4 = 0.25
+
+// Constraints:
+// -100.0 < x < 100.0
+// -231 <= n <= 231-1
+// n is an integer.
+// -104 <= xn <= 104
+
+class Power {
+	public static double myPow(double x, int n) {
+		double res = helper(x, Math.abs(n));
+		if (n >= 0)
+			return res;
+		return 1 / res;
+	}
+
+	public static double helper(double x, int n) {
+		if (x == 0)
+			return 0;
+		if (n == 0)
+			return 1;
+
+		double res = helper(x * x, n / 2);
+		if (n % 2 == 0)
+			return res;
+		return x * res;
+	}
+
+	public static void main(String[] args) {
+		double x = 2;
+		int n = 10;
+
+		System.out.println("The " + n + "th power of " + x + " is: " + myPow(x, n));
+	}
+}
