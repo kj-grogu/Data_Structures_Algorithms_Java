@@ -28,6 +28,7 @@ import java.util.*;
 // grid[i][j] is '0' or '1'.
 
 public class NumberOfIslands {
+
 	public static int numIslands(char[][] grid) {
 		int row = grid.length;
 		int col = grid[0].length;
@@ -114,6 +115,7 @@ public class NumberOfIslands {
 				{ '0', '0', '0', '1', '1' }
 		};
 		// Calling the BFS code to find the islands in a grid
+
 		System.out.println("numIslands result is: " + numIslands(grid));
 	}
 }
